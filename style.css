@@ -1,8 +1,29 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: Roboto, 'Times New Roman', Serif;
+}
+
+.section1 {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1em;
 }
