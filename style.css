@@ -18,6 +18,7 @@ body {
 
 .logo {
   font-size: 24px;
+  color: #F9FAF8;
 }
 
 ul {
@@ -26,4 +27,10 @@ ul {
   margin: 0;
   display: flex;
   gap: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
 }
